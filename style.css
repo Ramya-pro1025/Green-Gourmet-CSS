@@ -1,0 +1,129 @@
+/* Universal reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* Body and general styles */
+body {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+nav a:hover{
+    color: goldenrod;
+}
+header .section_one__name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Menu Section */
+.section-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px 0;
+      
+}
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+    border: 1px solid black;  /* Adds a subtle border to the card */
+}
+.card__image {
+    width: 100%;
+    height: 270px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    gap: 10px;
+   
+}
+.card__description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card__button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.card__button:hover {
+    background-color: brown;
+}
+/* Footer Section */
+footer {
+    background-color: black;
+    padding: 40px 20px;
+    margin-top: 15px;
+    width: 100%;
+    color: white;
+}
+footer h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    width: 100%
+}
+
+footer input[type="text"],
+footer input[type="number"],
+footer input[type="email"] {
+    width: 100%;
+    padding: 12px 22px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+footer button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    width: 50%;
+    max-width: 300px;
+}
+footer button:hover {
+    background-color: goldenrod;
+}
